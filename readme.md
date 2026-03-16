@@ -191,29 +191,7 @@ Durante lo sviluppo sono stati verificati:
 
 Il sistema è stato testato anche in condizioni di disconnessione o blocco di una board, verificando la corretta attivazione della ridondanza.
 
----
 
-## Struttura logica del progetto
-Una possibile organizzazione della repository può essere:
-
-```text
-antifurto-stm32/
-├── README.md
-├── board-a-controller/
-│   ├── Core/
-│   ├── Drivers/
-│   └── Inc/
-├── board-b-primary-alarm/
-│   ├── Core/
-│   ├── Drivers/
-│   └── Inc/
-├── board-c-backup-alarm/
-│   ├── Core/
-│   ├── Drivers/
-│   └── Inc/
-└── docs/
-    └── Presentazione_Antifurto_STM32.pptx
-```
 
 ---
 
